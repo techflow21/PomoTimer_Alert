@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\NewTasks\TimerAlert\bin\Debug\net6.0\TimerAlert.exe
+C:\Users\HP\Desktop\NewTasks\TimerAlert\bin\Debug\net6.0\TimerAlert.deps.json
+C:\Users\HP\Desktop\NewTasks\TimerAlert\bin\Debug\net6.0\TimerAlert.runtimeconfig.json
+C:\Users\HP\Desktop\NewTasks\TimerAlert\bin\Debug\net6.0\TimerAlert.dll
+C:\Users\HP\Desktop\NewTasks\TimerAlert\bin\Debug\net6.0\TimerAlert.pdb
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\TimerAlert.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\TimerAlert.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\TimerAlert.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\TimerAlert.AssemblyInfo.cs
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\TimerAlert.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\TimerAlert.dll
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\refint\TimerAlert.dll
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\TimerAlert.pdb
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\TimerAlert.genruntimeconfig.cache
+C:\Users\HP\Desktop\NewTasks\TimerAlert\obj\Debug\net6.0\ref\TimerAlert.dll
