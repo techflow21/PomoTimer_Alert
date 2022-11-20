@@ -12,14 +12,14 @@ namespace TimerAlert
             {
                 var totalSessionTime = 0;
                 Console.WriteLine("Enter a WorkTime duration in minutes: ");
-                var work_duration = Console.ReadLine();
+                var workDuration = Console.ReadLine();
 
                 Console.WriteLine("Enter a RestTime duration in minutes: ");
-                var rest_duration = Console.ReadLine();
+                var restDuration = Console.ReadLine();
 
-                if (Convert.ToInt32(work_duration) >= 1 && Convert.ToInt32(rest_duration) >= 1)
+                if (Convert.ToInt32(workDuration) >= 1 && Convert.ToInt32(restDuration) >= 1)
                 {
-                    int work_time_in_sec = Convert.ToInt32(work_duration) * 60;
+                    int work_time_in_sec = Convert.ToInt32(workDuration) * 60;
 
                     Thread.Sleep(work_time_in_sec);
                     totalSessionTime += work_time_in_sec;
@@ -34,7 +34,7 @@ namespace TimerAlert
                     Console.WriteLine("Now Counting down Rest Time...");
 
 
-                    int rest_time_in_sec = Convert.ToInt32(rest_duration) * 60;
+                    int rest_time_in_sec = Convert.ToInt32(restDuration) * 60;
 
                     Stopwatch stopwatch = new Stopwatch();
                     stopwatch.Start();
