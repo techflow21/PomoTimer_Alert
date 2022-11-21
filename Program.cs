@@ -11,10 +11,10 @@ namespace TimerAlert
             while (isContinued)
             {
                 var totalSessionTime = 0;
-                Console.WriteLine("Enter a WorkTime duration in minutes: ");
+                Console.WriteLine("Enter a Work Time duration in minutes: ");
                 var workDuration = Console.ReadLine();
 
-                Console.WriteLine("Enter a RestTime duration in minutes: ");
+                Console.WriteLine("Enter a Rest Time duration in minutes: ");
                 var restDuration = Console.ReadLine();
 
                 if (Convert.ToInt32(workDuration) >= 1 && Convert.ToInt32(restDuration) >= 1)
@@ -30,7 +30,7 @@ namespace TimerAlert
                         Console.Clear();
                     }
 
-                    Console.WriteLine("Your WorkTime has completed");
+                    Console.WriteLine("Your Work Time has completed");
                     Console.WriteLine("Now Counting down Rest Time...");
 
 
