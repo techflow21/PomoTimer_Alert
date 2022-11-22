@@ -72,10 +72,6 @@ namespace TimerAlert
                             Console.WriteLine("You entered an invalid character");
                         }
                             break; 
-                    }  
-                    if (userOption.ToLower() == "c")
-                    {
-                        isContinued = true;
                     }
                 }
                 else
