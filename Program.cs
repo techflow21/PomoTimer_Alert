@@ -50,24 +50,33 @@ namespace TimerAlert
 
                     Console.WriteLine("Your Rest Time has completed");
                     Console.WriteLine("To Continue, Enter C or Enter S to stop");
-                    string? userOption = Console.ReadLine();
+                    string? userOption = Console.ReadLine().ToLower();
 
+                    switch(userOption)
+                    {
+                        case "c":
+                        {
+                            isContinued = true;
+                        }
+                            break;
+                        case "s":
+                        {
+                            isContinued = false;
+                            stopwatch.Stop();
+                            TimeSpan time_span = stopwatch.Elapsed;
+                            Console.WriteLine("Your Total Session Time is {0:00}:{1:00}:{2:00}", time_span.Hours, time_span.Minutes, time_span.Seconds);
+                        }
+                            break;
+                        default
+                        {
+                            Console.WriteLine("You entered an invalid character");
+                        }
+                            break; 
+                    }  
                     if (userOption.ToLower() == "c")
                     {
                         isContinued = true;
                     }
-                    else if (userOption.ToLower() == "s")
-                    {
-                        isContinued = false;
-                        stopwatch.Stop();
-                        TimeSpan time_span = stopwatch.Elapsed;
-                        Console.WriteLine("Your Total Session Time is {0:00}:{1:00}:{2:00}", time_span.Hours, time_span.Minutes, time_span.Seconds);
-                    }
-                    else
-                    {
-                        Console.WriteLine("You entered an invalid character");
-                    }
-
                 }
                 else
                 {
