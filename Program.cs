@@ -21,9 +21,9 @@ namespace TimerAlert
                 {
                     int work_time_in_sec = Convert.ToInt32(workDuration) * 60;
 
-                    Thread.Sleep(work_time_in_sec);
-                    totalSessionTime += work_time_in_sec;
-                    for (int i = work_time_in_sec; i >= 0; i--)
+                    Thread.Sleep(workTimeMillisec);
+                    totalSessionTime += workTimeMillisec;
+                    for (int i = workTimeMillisec; i >= 0; i--)
                     {
                         Console.WriteLine("Counting down Work Time..{0} Second(s)", i);
                         Thread.Sleep(1000);
@@ -38,10 +38,10 @@ namespace TimerAlert
 
                     Stopwatch stopwatch = new Stopwatch();
                     stopwatch.Start();
-                    Thread.Sleep(rest_time_in_sec);
-                    totalSessionTime += rest_time_in_sec;
+                    Thread.Sleep(restTimeMillisec);
+                    totalSessionTime += restTimeMilisec;
 
-                    for (int i = rest_time_in_sec; i >= 0; i--)
+                    for (int i = restTimeMillisec; i >= 0; i--)
                     {
                         Console.WriteLine("Counting down Rest Time... {0} Second(s)", i);
                         Thread.Sleep(1000);
