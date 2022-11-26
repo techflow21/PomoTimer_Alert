@@ -6,6 +6,7 @@ namespace TimerAlert
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Timer-Alert App");
             TimerOperations timerOperations = new();
             timerOperations.Timer();
             
