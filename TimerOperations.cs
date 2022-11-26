@@ -10,10 +10,10 @@ namespace TimerAlert
 
             while (isContinued)
             {
-                Console.WriteLine("Enter a WorkTime duration in minutes: ");
+                Console.WriteLine("Enter a work time duration in minutes: ");
                 var workDuration = Console.ReadLine();
 
-                Console.WriteLine("Enter a RestTime duration in minutes: ");
+                Console.WriteLine("Enter a rest time duration in minutes: ");
                 var restDuration = Console.ReadLine();
                 try
                 {
@@ -26,7 +26,7 @@ namespace TimerAlert
 
                         for (int i = workTimeMillisec; i >= 0; i--)
                         {
-                            Console.WriteLine("Counting down Work Time... {0} Second(s) left", i);
+                            Console.WriteLine("Counting down work time... {0} Second(s) left", i);
                             Thread.Sleep(1000);
                             Console.Clear();
                         }
